@@ -1,0 +1,129 @@
+body {
+  background-image: url("background2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(10px);
+}
+
+.navbar .nav-link {
+  color: white !important;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+.content {
+  margin-top: 80px; /* Push content below navbar */
+  text-align: center;
+  color: white; /* Adjust color for visibility */
+}
+
+.content h1 {
+  font-size: 3rem;
+}
+
+.content p {
+  font-size: 2rem;
+  color: skyblue;
+}
+span {
+  color: #dcd7c9;
+}
+.icon {
+  padding-left: 50px;
+  text-align: left;
+  padding-top: 50px;
+  color: white;
+}
+.icon h6 {
+  font-size: 1rem;
+  line-height: 2;
+  margin-bottom: 15px;
+}
+
+.icon i {
+  font-size: 1.2rem;
+  color: skyblue;
+}
+.las {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+  border-radius: 5px;
+}
+.text {
+  padding-top: 50px;
+  padding-left: 50px;
+  text-align: center;
+}
+.cont {
+  color: #dcd7c9;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-top: 10px;
+  font-weight: lighter;
+  text-align: center;
+}
+.container {
+  padding-top: 50px; /* Adds space from the top */
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.pics p {
+  font-size: x-large;
+  color: EFF3EA;
+}
+.pics h2 {
+  color: white;
+}
+.freq {
+  text-align: center;
+  padding-top: 50px;
+}
+.freq h1 {
+  color: white;
+  font-weight: bolder;
+}
+
+.freq h5 {
+  color: skyblue;
+}
+.custom-btn-group {
+  width: 60%; /* Increase button width */
+  margin-bottom: 15px; /* Space between dropdowns */
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between; /* Text on left, icon on right */
+  align-items: center;
+  padding: 10px 15px;
+}
+footer {
+  border-top: 2px solid #555; /* Optional top border */
+}
+
+footer h5,
+footer h6 {
+  margin-bottom: 10px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 5px;
+}
